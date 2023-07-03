@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'new courier';
+    line-height: 1.5;
+    background-color: rgb(92, 224, 132);
+}
+
+header {
+    background-color: seagreen;
+    border: 2px solid;
+    color: black;
+    height: 80px;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header h2 {
+    font-size: 18px;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: seagreen;
+    border-radius: 10px;
+    border: 2px solid;
+
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.socials a {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.email img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: seagreen;
+    border: 2px solid;
+    position: fixed;
+    height: 55px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1px;
+    text-align: center;
+}
